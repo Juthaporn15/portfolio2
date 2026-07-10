@@ -1,0 +1,18 @@
+Portfolio/
+│
+├── index.html          (หน้าแรก)
+├── about.html          (ประวัติส่วนตัว)
+├── education.html      (ประวัติการศึกษา)
+├── portfolio.html      (ผลงาน)
+├── contact.html        (ติดต่อ)
+│
+├── css/
+│     └── style.css
+│
+├── js/
+│     └── script.js
+│
+├── images/
+│     ├── banner.jpg
+│     ├── profile.jpg
+│     └── ...
