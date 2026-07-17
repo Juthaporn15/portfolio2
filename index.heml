@@ -1,18 +1,57 @@
-Portfolio/
-│
-├── index.html          (หน้าแรก)
-├── about.html          (ประวัติส่วนตัว)
-├── education.html      (ประวัติการศึกษา)
-├── portfolio.html      (ผลงาน)
-├── contact.html        (ติดต่อ)
-│
-├── css/
-│     └── style.css
-│
-├── js/
-│     └── script.js
-│
-├── images/
-│     ├── banner.jpg
-│     ├── profile.jpg
-│     └── ...
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | หน้าแรก</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<img src="images/profile.jpg" class="profile">
+
+<h1>Portfolio</h1>
+
+<p>แฟ้มสะสมผลงานของนักเรียนชั้นมัธยมศึกษาปีที่ 6</p>
+
+<nav>
+
+<a href="index.html">🏠 หน้าแรก</a>
+
+<a href="profile.html">👤 ประวัติส่วนตัว</a>
+
+<a href="education.html">🎓 ประวัติการศึกษา</a>
+
+<a href="portfolio.html">🏆 ผลงาน</a>
+
+<a href="contact.html">📞 ติดต่อ</a>
+
+</nav>
+
+</header>
+
+<section class="card">
+
+<h2>ยินดีต้อนรับ</h2>
+
+<p>
+เว็บไซต์นี้จัดทำขึ้นเพื่อรวบรวมข้อมูลส่วนตัว ประวัติการศึกษา ผลงาน และช่องทางการติดต่อ
+เพื่อใช้ประกอบการสมัครเข้าศึกษาต่อ
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Portfolio
+
+</footer>
+
+</body>
+</html>
